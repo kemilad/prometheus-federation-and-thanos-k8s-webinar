@@ -1,1 +1,3 @@
-# prometheus-federation-and-thanos-k8s-webinar
+# Prometheus Federation And Thanos [Kubernetes Sri Lanka Webinar]
+
+##Assumptions and prerequisites
