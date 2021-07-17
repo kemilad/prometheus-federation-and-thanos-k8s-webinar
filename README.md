@@ -76,7 +76,7 @@ helm install grafana bitnami/grafana \
 - Click “Save & Test” to save and test the configuration. If everything is configured correctly, you should see a success message.
 
 ### Step 5: Test the system
-### To test this system, need to import prometheus node exporter chart, you can use any other relevant thing as well.
+### To test this system, need to import prometheus node exporter chart, you can use any other relevant dashboard as well.
 
 - Goto the this URL >> https://grafana.com/grafana/dashboards/11074
 
