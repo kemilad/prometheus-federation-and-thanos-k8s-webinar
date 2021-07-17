@@ -39,7 +39,7 @@ helm install prometheus-operator \
 
 ### Step 2: Install and configure Thanos
 
-- Get the values.yaml file in this repository; do the correct configurations according to that file.
+- Get the ``` values.yaml ``` file in this repository; do the correct configurations according to that file.
 
 - Install Thanos using the command below:
 
