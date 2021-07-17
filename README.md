@@ -1,4 +1,5 @@
-# Prometheus Federation And Thanos [Kubernetes Sri Lanka Webinar] | YOUTUBE: https://youtu.be/h369W9SMQfk
+# Prometheus Federation And Thanos [Kubernetes Sri Lanka Webinar]
+### The Webinar On YouTube: https://youtu.be/h369W9SMQfk
 
 ## Assumptions and prerequisites
 
