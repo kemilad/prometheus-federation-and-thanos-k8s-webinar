@@ -20,11 +20,16 @@ Only one instance of the Prometheus Operator component should be running in a cl
 ``` helm repo add bitnami https://charts.bitnami.com/bitnami ```
 
 - Install the Prometheus Operator in the first “data producer” cluster using the command below:
-``` helm install prometheus-operator \
+```
+helm install prometheus-operator \
   --set prometheus.thanos.create=true \
   --set operator.service.type=ClusterIP \
   --set prometheus.service.type=ClusterIP \
   --set alertmanager.service.type=ClusterIP \
   --set prometheus.thanos.service.type=LoadBalancer \
   --set prometheus.externalLabels.cluster="data-producer-0" \
-  bitnami/prometheus-operator ```
+  bitnami/prometheus-operator
+```
+ 
+
+ 
